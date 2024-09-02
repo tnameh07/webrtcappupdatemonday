@@ -1,0 +1,23 @@
+.join-container, .create-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.join-container h2, .create-container h2 {
+    margin-bottom: 20px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}

@@ -1,0 +1,60 @@
+.superDivSignup {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+.signup-container {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+}
+
+.signup-card {
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.input-icon {
+    margin-right: 8px;
+    color: #6a11cb;
+}
+
+.form-control {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.custom-btn {
+    border-radius: 30px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(to right, #2575fc, #80669c);
+}
+
+.signin-link {
+    color: #6a11cb;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.signin-link:hover {
+    color: #2575fc;
+}
+
+.alert-danger {
+    border-radius: 20px;
+}
+
+@media (max-width: 576px) {
+    .signup-container {
+        padding: 10px;
+    }
+}
